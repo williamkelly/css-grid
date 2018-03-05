@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-rows: 75px 75px;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 10px 1.333%;
+}
+
+.grid li:nth-child(1) {
+    order: 2;
+}
+
+.grid li:nth-child(3) {
+    order: -1;
+}
+
+.grid li:nth-child(5) {
+    order: 1;
+}
+
